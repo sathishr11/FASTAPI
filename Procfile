@@ -1,1 +1,1 @@
-web: poetry run uvicorn api_fastapi.src.main:app --host 0.0.0.0 --port 8000
+web: uvicorn api_fastapi.src.main:app --host 0.0.0.0 --port 8000
